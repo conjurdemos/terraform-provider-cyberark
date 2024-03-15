@@ -1,6 +1,10 @@
 # CyberArk Privilege Cloud Provider
 Base provider for managing the state of objects and configurations in Privilege Cloud
 
+This release is currently in **beta**.
+
+Please see [Docs](/docs/index.md) for current supported resources and data providers
+
 ## Certification level
 ![](https://img.shields.io/badge/Certification%20Level-Community-28A745?link=https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md)
 
