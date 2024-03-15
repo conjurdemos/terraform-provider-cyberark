@@ -1,4 +1,4 @@
-module github.com/aharriscybr/cybr-tf
+module github.com/conjurdemos/terraform-provider-cyberark
 
 go 1.20
 
