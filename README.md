@@ -9,7 +9,7 @@ by CyberArk**. For more detailed information on our certification levels, see [o
 
 ## Requirements
 
-[![Release](https://github.com/aharriscybr/cybr-tf/actions/workflows/release.yml/badge.svg)](https://github.com/aharriscybr/cybr-tf/actions/workflows/release.yml)
+[![Release](https://github.com/conjurdemos/terraform-provider-cyberark/actions/workflows/release.yml/badge.svg)](https://github.com/conjurdemos/terraform-provider-cyberark/actions/workflows/release.yml)
 
 # Configurable Environment Variables
 *We do not support configuring optional properties via environment variables, these must be implicitly defined.*

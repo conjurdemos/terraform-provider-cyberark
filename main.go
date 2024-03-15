@@ -20,7 +20,6 @@ var (
 
 func main() {
 	opts := providerserver.ServeOpts{
-		Address: "local/cyberarkapi/accounts",
 		Debug:   false,
 	}
 
