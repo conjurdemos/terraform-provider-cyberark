@@ -54,7 +54,7 @@ by CyberArk**. For more detailed information on our certification levels, see [o
 
 ## Usage instructions
 
-Please see docs at *add provider link when live*
+Please see docs at *tf provider url*
 
 ## Contributing
 
