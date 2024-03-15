@@ -1,4 +1,4 @@
-resource "cyberarkapi_dbaccount" "pgdb" {
+resource "cyberark_dbaccount" "pgdb" {
   name             = "user-db"
   address          = "1.2.3.4"
   username         = "user-db"

@@ -1,4 +1,4 @@
-provider "cyberarkapi" {
+provider "cyberark" {
   tenant       = "aarp0000"
   domain       = "example-domain"
   clientid     = "automation@cyberark.cloud.aarp0000"

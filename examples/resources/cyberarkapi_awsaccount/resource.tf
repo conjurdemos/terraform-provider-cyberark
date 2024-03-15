@@ -1,4 +1,4 @@
-resource "cyberarkapi_awsaccount" "awskey" {
+resource "cyberark_awsaccount" "awskey" {
   name              = "user-aws"
   username          = "user-aws"
   platform          = "AWS_TF"

@@ -1,4 +1,4 @@
-resource "cyberarkapi_msaccount" "mskey" {
+resource "cyberark_msaccount" "mskey" {
   name             = "user-ms"
   address          = "1.2.3.4"
   username         = "user-ms"
