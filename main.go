@@ -20,6 +20,7 @@ var (
 
 func main() {
 	opts := providerserver.ServeOpts{
+		Address: "registry.terraform.io/conjurdemos/cyberark",
 		Debug:   false,
 	}
 
