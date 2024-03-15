@@ -7,7 +7,7 @@ import (
 	"log"
 
 	// CyberArk API
-	provider "github.com/conjurdemos/terraform-provider-cyberark"
+	provider "github.com/conjurdemos/terraform-provider-cyberark/cyberark"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
 
