@@ -1,39 +1,61 @@
-# {Your project name}
-TODO: Insert brief description of your project
+# CyberArk Privilege Cloud Provider
+Base provider for managing the state of objects and configurations in Privilege Cloud
 
 ## Certification level
-TODO: Select the appropriate certification level section below, and remove all others.
-
 {Community}
 ![](https://img.shields.io/badge/Certification%20Level-Community-28A745?link=https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md)
 
 This repo is a **Community** level project. It's a community contributed project that **is not reviewed or supported
 by CyberArk**. For more detailed information on our certification levels, see [our community guidelines](https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md#community).
 
-{Trusted}
-![](https://img.shields.io/badge/Certification%20Level-Trusted-007BFF?link=https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md)
-
-This repo is a **Trusted** level project. It's been reviewed by CyberArk to verify that it will securely
-work with Conjur Open Source as documented. For more detailed  information on our certification levels, see
-[our community guidelines](https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md#community).
-
-{Certified}
-![](https://img.shields.io/badge/Certification%20Level-Certified-6C757D?link=https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md)
-
-This repo is a **Certified** level project. It's been reviewed by CyberArk to verify that it will securely
-work with CyberArk Conjur Enterprise as documented. In addition, CyberArk offers Enterprise-level support for these features. For
-more detailed  information on our certification levels, see [our community guidelines](https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md#community).
-
 ## Requirements
 
-TODO: Add any requirements that apply to your project here. Which Conjur Open Source / Enterprise versions is it
-compatible with? Does it integrate with other tools / projects - and if so, what versions of those
-does it require?
+[![Release](https://github.com/aharriscybr/cybr-tf/actions/workflows/release.yml/badge.svg)](https://github.com/aharriscybr/cybr-tf/actions/workflows/release.yml)
+
+# Configurable Environment Variables
+*We do not support configuring optional properties via environment variables, these must be implicitly defined.*
+
+## Provider
+- CYBERARK_PROVIDER_TENANT
+- CYBERARK_PROVIDER_CLIENT_ID
+- CYBERARK_PROVIDER_CLIENT_SECRET
+- CYBERARK_PROVIDER_DOMAIN
+## Accounts
+- CYBERARK_ACCOUNT_CUSTOM_NAME
+- CYBERARK_ACCOUNT_USERNAME
+- CYBERARK_ACCOUNT_PLATFORM
+- CYBERARK_ACCOUNT_SAFE
+- CYBERARK_ACCOUNT_SECRETTYPE
+- CYBERARK_ACCOUNT_SECRET
+
+# Set up Terraform User
+- Log into Identity Administration and navigate to the Users Widget
+
+<img src="img/users-widget.png" width="60%" height="30%">
+
+- Create New User
+
+<img src="img/add-user-widget.png"  width="60%" height="30%">
+
+- Populate User Data
+
+<img src="img/terraform-user.png"  width="60%" height="30%">
+
+- Navigate to the Roles Widget
+
+<img src="img/roles-widget.png" width="60%" height="30%">
+
+- Add the new user to the Privilege Cloud Safe Managers Role
+
+<img src="img/priv-safe-manager.png" width="60%" height="30%">
+
+- Search for the Terraform User and Add
+
+<img src="img/add-terraform-user.png" width="60%" height="30%">
 
 ## Usage instructions
 
-TODO: add details for how to use your project. Examples can be quite nice here. You should have
-a high level overview of the benefit of your project and its main use cases.
+Please see docs at *add provider link when live*
 
 ## Contributing
 
