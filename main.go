@@ -15,7 +15,7 @@ import (
 //go:generate go run github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs generate -provider-name cyberark
 
 var (
-	version string = "1.0.1"
+	version string = "0.9.9"
 )
 
 func main() {
