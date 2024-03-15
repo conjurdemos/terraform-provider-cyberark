@@ -2,7 +2,6 @@
 Base provider for managing the state of objects and configurations in Privilege Cloud
 
 ## Certification level
-{Community}
 ![](https://img.shields.io/badge/Certification%20Level-Community-28A745?link=https://github.com/cyberark/community/blob/master/Conjur/conventions/certification-levels.md)
 
 This repo is a **Community** level project. It's a community contributed project that **is not reviewed or supported
